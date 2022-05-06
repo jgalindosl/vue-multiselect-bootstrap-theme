@@ -1,0 +1,20 @@
+{
+    "name": "vue-mutiselect-bootstrap-theme",
+    "description": "Bootstrap 4/5 themes for vue-multiselect ",
+    "version": "1.0.0",
+    "keywords": [
+      "vue-multiselect",
+      "bootstrap"
+    ],
+    "homepage": "https://github.com/csgt/vue-mutiselect-bootstrap",
+    "contributors": [
+      "Jose Galindo (https://github.com/jgalindosl)",
+    ],
+    "files": [
+      "dist/"
+    ],
+    "repository": "csgt/vue-multiselect-bootstrap-theme",
+    "devDependencies": {},
+    "dependencies": {}
+  }
+  
