@@ -6,14 +6,14 @@
       "vue-multiselect",
       "bootstrap"
     ],
-    "homepage": "https://github.com/csgt/vue-mutiselect-bootstrap",
+    "homepage": "https://github.com/jgalindosl/vue-mutiselect-bootstrap",
     "contributors": [
       "Jose Galindo (https://github.com/jgalindosl)"
     ],
     "files": [
       "dist/"
     ],
-    "repository": "csgt/vue-multiselect-bootstrap-theme",
+    "repository": "jgalindosl/vue-multiselect-bootstrap-theme",
     "devDependencies": {},
     "dependencies": {}
   }
