@@ -1,0 +1,9 @@
+version: "2"
+services:
+    app:
+        image: "node:16"
+        user: "node"
+        working_dir: /home/node/app
+        volumes:
+            - ./:/home/node/app
+        command: tail -F anything

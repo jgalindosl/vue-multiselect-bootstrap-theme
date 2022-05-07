@@ -1,14 +1,16 @@
-Bootstrap 3/4/5 theme for vue-multiselect
+# Bootstrap 3/4/5 theme for [vue-multiselect](https://vue-multiselect.js.org/)
 
-= Installation =
+Compiled from different comments on this [github issue](https://github.com/shentao/vue-multiselect/issues/718)
 
-```
-npm install vue-multiselect-bootstrap-theme
-```
+## Installation
 
-= Usage =
-Include the scss stylesheet into your main styles file
+    npm install vue-multiselect-bootstrap-theme
 
-```
-@import "~vue-multiselect-bootstrap-theme/src/
+## Usage
+
+Include the scss stylesheet into your main styles file, after the `vue-multiselect.min.css` file
+
+```scss
+@import "~vue-multiselect/dist/vue-multiselect.min.css";
+@import "~vue-mutiselect-bootstrap-theme/dist/vue-multiselect-bootstrap4.scss";
 ```
