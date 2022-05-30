@@ -1,6 +1,7 @@
+@use "sass:math";
+
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
-@use "sass:math";
 
 $vue-multiselect-padding-x: $form-select-padding-x !default;
 $vue-multiselect-padding-y: $form-select-padding-y !default;
