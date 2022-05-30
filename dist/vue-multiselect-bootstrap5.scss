@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
 @use "sass:math";
 
 $vue-multiselect-padding-x: $form-select-padding-x !default;
@@ -24,7 +26,7 @@ $vue-multiselect-tag-color: $dark !default;
 $vue-multiselect-tag-bg: $light !default;
 $vue-multiselect-tag-font-size: $badge-font-size !default;
 $vue-multiselect-tag-font-weight: normal !default;
-$vue-multiselect-tag-icon-size: 1.7rem !default;
+$vue-multiselect-tag-icon-size: $form-select-feedback-icon-size !default;
 $vue-multiselect-tag-icon-color: $vue-multiselect-tag-color !default;
 $vue-multiselect-tag-icon-color-hover: white !default;
 $vue-multiselect-tag-icon-bg-hover: $danger !default;
