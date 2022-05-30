@@ -8,7 +8,7 @@ Compiled from different comments on this [github issue](https://github.com/shent
 
 ## Usage
 
-Include the scss stylesheet into your main styles file, after the `vue-multiselect.min.css` file
+Include the scss stylesheet into your main styles file, after the `vue-multiselect.min.css` file. Include the version that matches your bootstrap version (3,4,5)
 
 ```scss
 @import "~vue-multiselect/dist/vue-multiselect.min.css";

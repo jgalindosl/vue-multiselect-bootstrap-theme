@@ -1,25 +1,24 @@
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
+@use "sass:math";
 
-$vue-multiselect-padding-x: $custom-select-padding-x !default;
-$vue-multiselect-padding-y: $custom-select-padding-y !default;
-$vue-multiselect-min-height: $custom-select-height !default;
+$vue-multiselect-padding-x: $form-select-padding-x !default;
+$vue-multiselect-padding-y: $form-select-padding-y !default;
+$vue-multiselect-min-height: $input-height !default;
 $vue-multiselect-border-radius: $border-radius !default;
-$vue-multiselect-border-color: $custom-select-border-color !default;
+$vue-multiselect-border-color: $form-select-border-color !default;
 $vue-multiselect-border-width: 1px !default;
 $vue-multiselect-disabled-opacity: $btn-disabled-opacity !default;
 $vue-multiselect-placeholder-color: $text-muted !default;
-$vue-multiselect-bg: $custom-select-bg !default;
-$vue-multiselect-color: $custom-select-color !default;
-$vue-multiselect-disabled-bg: $custom-select-disabled-bg !default;
-$vue-multiselect-disabled-color: $custom-select-disabled-color !default;
+$vue-multiselect-bg: $form-select-bg !default;
+$vue-multiselect-color: $form-select-color !default;
+$vue-multiselect-disabled-bg: $form-select-disabled-bg !default;
+$vue-multiselect-disabled-color: $form-select-disabled-color !default;
 
 $vue-multiselect-option-selected-bg: #f3f3f3 !default;
 $vue-multiselect-option-selected-color: $body-color !default;
 $vue-multiselect-option-highlight-color: #fff !default;
-$vue-multiselect-option-highlight-bg: theme-color("primary") !default;
+$vue-multiselect-option-highlight-bg: $primary !default;
 $vue-multiselect-option-selected-highlight-color: #fff !default;
-$vue-multiselect-option-selected-highlight-bg: theme-color("secondary") !default;
+$vue-multiselect-option-selected-highlight-bg: $secondary !default;
 
 $vue-multiselect-tag-color: $dark !default;
 $vue-multiselect-tag-bg: $light !default;
@@ -33,13 +32,13 @@ $vue-multiselect-tag-padding-x: .4rem !default;
 $vue-multiselect-tag-padding-y: .25rem !default;
 $vue-multiselect-tag-border-radius: $badge-border-radius !default;
 
-$vue-multiselect-arrow-color: $custom-select-color !default;
+$vue-multiselect-arrow-color: $form-select-color !default;
 $vue-multiselect-arrow-size: 5px !default;
 $vue-multiselect-arrow-padding: 8px !default;
 
 $vue-multiselect-spinner-size: 16px !default;
 $vue-multiselect-spinner-thickness: 2px !default;
-$vue-multiselect-spinner-margin: -$vue-multiselect-spinner-size/2 !default;
+$vue-multiselect-spinner-margin: math.div(-$vue-multiselect-spinner-size, 2) !default;
 $vue-multiselect-spinner-color: $dark !default;
 
 // --------------------------------
@@ -322,7 +321,7 @@ fieldset[disabled] .multiselect {
   padding-right: 12px;
   padding-left: 20px;
   font-family: inherit;
-  font-size: inherit;
+  font-size: $small-font-size;
 }
 
 .multiselect__option--highlight {
@@ -543,8 +542,8 @@ fieldset[disabled] .multiselect {
     border-color: $color;
 
     @if $enable-validation-icons {
-      padding-right: $custom-select-feedback-icon-padding-right;
-      background: escape-svg($icon) $custom-select-bg no-repeat $custom-select-feedback-icon-position / $custom-select-feedback-icon-size;
+      padding-right: $form-select-feedback-icon-padding-end;
+      background: escape-svg($icon) $form-select-bg no-repeat $form-select-feedback-icon-position / $form-select-feedback-icon-size;
     }
 
     &:focus {
