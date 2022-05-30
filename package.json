@@ -1,7 +1,7 @@
 {
     "name": "vue-mutiselect-bootstrap-theme",
     "description": "Bootstrap 3/4/5 themes for vue-multiselect ",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "keywords": [
       "vue-multiselect",
       "bootstrap"
