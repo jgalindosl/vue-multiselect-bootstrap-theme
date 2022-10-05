@@ -12,5 +12,5 @@ Include the scss stylesheet into your main styles file, after the `vue-multisele
 
 ```scss
 @import "~vue-multiselect/dist/vue-multiselect.min.css";
-@import "~vue-mutiselect-bootstrap-theme/dist/vue-multiselect-bootstrap4.scss";
+@import "~vue-multiselect-bootstrap-theme/dist/vue-multiselect-bootstrap4.scss";
 ```
