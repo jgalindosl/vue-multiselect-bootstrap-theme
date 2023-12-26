@@ -1,26 +1,26 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 
-$vue-multiselect-padding-x : $padding-base-horizontal !default;
-$vue-multiselect-padding-y : $padding-base-vertical !default;
-$vue-multiselect-min-height : $input-height-base !default;
-$vue-multiselect-line-height : $line-height-base !default;
+$vue-multiselect-padding-x : $table-cell-padding-x !default;
+$vue-multiselect-padding-y : $table-cell-padding-y !default;
+$vue-multiselect-min-height : $form-check-min-height !default;
+$vue-multiselect-line-height : $input-line-height !default;
 $vue-multiselect-border-radius : $input-border-radius !default;
-$vue-multiselect-border-color : $input-border !default;
+$vue-multiselect-border-color : $border-color !default;
 $vue-multiselect-border-width : 1px !default;
 $vue-multiselect-disabled-opacity : .65 !default;
 $vue-multiselect-placeholder-color : $text-muted !default;
 $vue-multiselect-bg : $input-bg !default;
 $vue-multiselect-color : $input-color !default;
-$vue-multiselect-disabled-bg : $input-bg-disabled !default;
-$vue-multiselect-disabled-color : $gray-light !default;
+$vue-multiselect-disabled-bg : $input-disabled-bg !default;
+$vue-multiselect-disabled-color : $input-disabled-color !default;
 
 $vue-multiselect-option-selected-bg : #f3f3f3 !default;
-$vue-multiselect-option-selected-color : $text-color !default;
+$vue-multiselect-option-selected-color : $form-text-color !default;
 $vue-multiselect-option-highlight-color : #fff !default;
-$vue-multiselect-option-highlight-bg : $brand-primary !default;
+$vue-multiselect-option-highlight-bg : $primary !default;
 $vue-multiselect-option-selected-highlight-color : #fff !default;
-$vue-multiselect-option-selected-highlight-bg : $brand-danger !default;
+$vue-multiselect-option-selected-highlight-bg : $danger !default;
 
 $vue-multiselect-tag-color : #fff !default;
 $vue-multiselect-tag-bg : #41B883 !default;
@@ -33,7 +33,7 @@ $vue-multiselect-tag-icon-color-hover : white !default;
 $vue-multiselect-tag-icon-bg-hover : #369A6E !default;
 $vue-multiselect-tag-padding-x : .4rem !default;
 $vue-multiselect-tag-padding-y : 4px !default;
-$vue-multiselect-tag-border-radius : $border-radius-base !default;
+$vue-multiselect-tag-border-radius : $input-border-radius !default;
 
 $vue-multiselect-arrow-color : $input-color !default;
 $vue-multiselect-arrow-size : 5px !default;
@@ -42,7 +42,7 @@ $vue-multiselect-arrow-padding : 8px !default;
 $vue-multiselect-spinner-size : 16px !default;
 $vue-multiselect-spinner-thickness : 2px !default;
 $vue-multiselect-spinner-margin : -$vue-multiselect-spinner-size/2 !default;
-$vue-multiselect-spinner-color : $brand-dark !default;
+$vue-multiselect-spinner-color : $dark !default;
 
 // --------------------------------
 // Select field
