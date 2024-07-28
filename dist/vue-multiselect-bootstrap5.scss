@@ -245,7 +245,6 @@ fieldset[disabled] .multiselect {
 .multiselect__select:before {
   position: relative;
   right: 0;
-  top: 50%;
   color: $vue-multiselect-arrow-color;
   border-style: solid;
   border-width: $vue-multiselect-arrow-size $vue-multiselect-arrow-size 0 $vue-multiselect-arrow-size;
