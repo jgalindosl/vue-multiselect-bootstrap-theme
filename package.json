@@ -13,7 +13,10 @@
     "files": [
         "dist/"
     ],
-    "repository": "jgalindosl/vue-multiselect-bootstrap-theme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jgalindosl/vue-multiselect-bootstrap-theme.git"
+    },
     "peerDependencies": {
         "bootstrap": ">=3.x.x"
     }
