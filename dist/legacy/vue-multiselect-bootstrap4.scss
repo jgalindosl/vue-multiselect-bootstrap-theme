@@ -1,0 +1,6 @@
+// Bootstrap 4 theme for vue-multiselect, using the webpack "~" import prefix.
+// Only needed for older toolchains (e.g. sass-loader < 8) that cannot resolve
+// bare node_modules imports. Prefer dist/vue-multiselect-bootstrap4.scss.
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../themes/bootstrap4";
