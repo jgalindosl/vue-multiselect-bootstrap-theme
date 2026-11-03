@@ -1,21 +1,20 @@
 {
     "name": "vue-multiselect-bootstrap-theme",
     "description": "Bootstrap 3/4/5 themes for vue-multiselect ",
-    "version": "1.0.7",
+    "version": "2.0.1",
     "keywords": [
-      "vue-multiselect",
-      "bootstrap"
+        "vue-multiselect",
+        "bootstrap"
     ],
     "homepage": "https://github.com/jgalindosl/vue-multiselect-bootstrap-theme",
     "contributors": [
-      "Jose Galindo (https://github.com/jgalindosl)"
+        "Jose Galindo (https://github.com/jgalindosl)"
     ],
     "files": [
-      "dist/"
+        "dist/"
     ],
     "repository": "jgalindosl/vue-multiselect-bootstrap-theme",
     "peerDependencies": {
-        "bootstrap" : ">=3.x.x"
+        "bootstrap": ">=3.x.x"
     }
-  }
-  
+}
